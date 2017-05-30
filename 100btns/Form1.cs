@@ -39,7 +39,7 @@ namespace _100btns
         private void Form1_Load(object sender, EventArgs e)
         {
             frm4 = new Form4(selectedBtn);
-            btnsAmount = 250;
+            btnsAmount = 100;
             double tabAmount = (double)btnsAmount / 10;
             tabs = (int)Math.Ceiling(tabAmount);
 
